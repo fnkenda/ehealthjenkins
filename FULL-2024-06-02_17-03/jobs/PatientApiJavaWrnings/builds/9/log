@@ -1,0 +1,181 @@
+Started by user [8mha:////4COXUOVI7TQjSAILYpHvA9tnTG72VTX9SembXfS2Are/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4GH5mMgZNVEaiAM0Q1UfXIQzk4Uj6p/8HG0DOJOUB5xtAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/vagrant/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/vagrant/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 328d59e0206613946770b444adb771bd16f5949c (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 328d59e0206613946770b444adb771bd16f5949c # timeout=10
+Commit message: "Merge branch 'add_devAgent' into 'main'"
+ > git rev-list --no-walk 328d59e0206613946770b444adb771bd16f5949c # timeout=10
+[PatientApiJavaWrnings] $ /home/vagrant/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd checkstyle:checkstyle
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:CrudOperation >----------------------
+[INFO] Building CrudOperation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ CrudOperation ---
+[INFO] Deleting /home/vagrant/workspace/PatientApiJavaWrnings/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CrudOperation ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ CrudOperation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 7 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CrudOperation ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ CrudOperation ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ CrudOperation ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ CrudOperation ---
+[INFO] Building jar: /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.2:repackage (repackage) @ CrudOperation ---
+[INFO] Replacing main artifact /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ CrudOperation ---
+[INFO] Installing /home/vagrant/workspace/PatientApiJavaWrnings/pom.xml to /home/vagrant/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.pom
+[INFO] Installing /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar to /home/vagrant/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- pmd:3.22.0:pmd (default-cli) @ CrudOperation ---
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] PMD version: 7.0.0
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.3 skin.
+[INFO] 
+[INFO] --- checkstyle:3.3.1:checkstyle (default-cli) @ CrudOperation ---
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.3 skin.
+[INFO] There are 151 errors reported by Checkstyle 9.3 with sun_checks.xml ruleset.
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Test Source XRef to link to - DISABLED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.181 s
+[INFO] Finished at: 2024-05-28T21:32:02+02:00
+[INFO] ------------------------------------------------------------------------
+[PMD] Using default pattern '**/pmd.xml' since user defined pattern is not set
+[PMD] Searching for all files in '/home/vagrant/workspace/PatientApiJavaWrnings' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /home/vagrant/workspace/PatientApiJavaWrnings/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/home/vagrant/workspace/PatientApiJavaWrnings'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/9/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Deleting source code files of build #8
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Searching for all files in '/home/vagrant/workspace/PatientApiJavaWrnings' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /home/vagrant/workspace/PatientApiJavaWrnings/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/home/vagrant/workspace/PatientApiJavaWrnings'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/9/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Deleting source code files of build #8
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Reference build recorder is not configured
+[PMD] No valid reference build found
+[PMD] All reported issues will be considered outstanding
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to build 'PatientApiJavaWrnings #9'.
+[Checks API] No suitable checks publisher found.
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/home/vagrant/workspace/PatientApiJavaWrnings' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /home/vagrant/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml
+[CheckStyle] -> found 151 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/home/vagrant/workspace/PatientApiJavaWrnings'
+[CheckStyle] -> resolved paths in source directory (6 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 151 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 6 affected files
+[CheckStyle] No filter has been set, publishing all 151 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 151 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/9/files-with-issues'
+[CheckStyle] -> 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Searching for all files in '/home/vagrant/workspace/PatientApiJavaWrnings' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /home/vagrant/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml
+[CheckStyle] -> found 151 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/home/vagrant/workspace/PatientApiJavaWrnings'
+[CheckStyle] -> resolved paths in source directory (6 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 151 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 6 affected files
+[CheckStyle] No filter has been set, publishing all 151 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 151 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/9/files-with-issues'
+[CheckStyle] -> 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Reference build recorder is not configured
+[CheckStyle] No valid reference build found
+[CheckStyle] All reported issues will be considered outstanding
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 151 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to build 'PatientApiJavaWrnings #9'.
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS
