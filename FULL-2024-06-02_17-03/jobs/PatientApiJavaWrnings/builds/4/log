@@ -1,0 +1,42 @@
+Started by user [8mha:////4COXUOVI7TQjSAILYpHvA9tnTG72VTX9SembXfS2Are/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4GH5mMgZNVEaiAM0Q1UfXIQzk4Uj6p/8HG0DOJOUB5xtAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/vagrant/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/vagrant/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision b984d5811e42950143d85c511ff117f1a74a82d6 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b984d5811e42950143d85c511ff117f1a74a82d6 # timeout=10
+Commit message: "Merge branch 'add_devAgent' into 'main'"
+ > git rev-list --no-walk b984d5811e42950143d85c511ff117f1a74a82d6 # timeout=10
+[PatientApiJavaWrnings] $ /home/vagrant/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn mvn clean install pmd:pmd findbugs:findbugs checkstyle:checkstyle
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:CrudOperation >----------------------
+[INFO] Building CrudOperation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.557 s
+[INFO] Finished at: 2024-05-28T17:57:26+02:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Unknown lifecycle phase "mvn". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: pre-clean, clean, post-clean, validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy. -> [Help 1]
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Invoke top-level Maven targets' marked build as failure
+[PMDFindBugsCheckStyle] Skipping execution of recorder since overall result is 'FAILURE'
+Finished: FAILURE
