@@ -1,0 +1,183 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>fnkenda</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>7</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>4</buildableDurationMillis>
+      <waitingDurationMillis>1</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.7.0">
+              <sha1>b984d5811e42950143d85c511ff117f1a74a82d6</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>6</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://gitlab.com/fnkenda/ehealthpatientapijava.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <io.jenkins.plugins.analysis.core.model.AggregationAction plugin="warnings-ng@11.3.0"/>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@11.3.0">
+      <result>
+        <id>pmd</id>
+        <totals>
+          <totalErrorSize>0</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>1</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <totalModifiedSize>0</totalModifiedSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <newModifiedSize>0</newModifiedSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>HIGH</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>LOW</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>ERROR</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>NORMAL</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>1</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>pmd</string>
+            <int>1</int>
+          </entry>
+        </sizePerOrigin>
+        <errors/>
+        <messages>
+          <string>Searching for all files in &apos;/home/vagrant/workspace/PatientApiJavaWrnings&apos; that match the pattern &apos;**/pmd.xml&apos;</string>
+          <string>Traversing of symbolic links: enabled</string>
+          <string>-&gt; found 1 file</string>
+          <string>Successfully parsed file /home/vagrant/workspace/PatientApiJavaWrnings/target/pmd.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;target/pmd.xml&apos;</string>
+          <string>Post processing issues on &apos;uat&apos; with source code encoding &apos;UTF-8&apos;</string>
+          <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+          <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+          <string>Resolving file names for all issues in workspace &apos;/home/vagrant/workspace/PatientApiJavaWrnings&apos;</string>
+          <string>-&gt; resolved paths in source directory (1 found, 0 not found)</string>
+          <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+          <string>-&gt; resolved module names for 1 issues</string>
+          <string>Resolving package names (or namespaces) by parsing the affected files</string>
+          <string>-&gt; all affected files already have a valid package name</string>
+          <string>No filter has been set, publishing all 1 issues</string>
+          <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+          <string>-&gt; created fingerprints for 1 issues (skipped 0 issues)</string>
+          <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/6/files-with-issues&apos;</string>
+          <string>-&gt; 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+          <string>Repository miner is not configured, skipping repository mining</string>
+          <string>Reference build recorder is not configured</string>
+          <string>No valid reference build found</string>
+          <string>All reported issues will be considered outstanding</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;pmd&apos; to build &apos;PatientApiJavaWrnings #6&apos;.</string>
+        </messages>
+        <referenceBuildId></referenceBuildId>
+        <noIssuesSinceBuild>-1</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateResult plugin="plugin-util-api@4.1.0">
+          <overallStatus>INACTIVE</overallStatus>
+          <items/>
+        </qualityGateResult>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity reference="../../result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+      </healthDescriptor>
+      <id>pmd</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+  </actions>
+  <queueId>10</queueId>
+  <timestamp>1716911871882</timestamp>
+  <startTime>1716911871885</startTime>
+  <result>SUCCESS</result>
+  <duration>9515</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>uat</builtOn>
+  <workspace>/home/vagrant/workspace/PatientApiJavaWrnings</workspace>
+  <hudsonVersion>2.452.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.2">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
