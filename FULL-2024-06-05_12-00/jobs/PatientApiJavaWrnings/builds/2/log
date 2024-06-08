@@ -1,0 +1,244 @@
+Started by user [8mha:////4COXUOVI7TQjSAILYpHvA9tnTG72VTX9SembXfS2Are/AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4GH5mMgZNVEaiAM0Q1UfXIQzk4Uj6p/8HG0DOJOUB5xtAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/vagrant/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/vagrant/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision b984d5811e42950143d85c511ff117f1a74a82d6 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b984d5811e42950143d85c511ff117f1a74a82d6 # timeout=10
+Commit message: "Merge branch 'add_devAgent' into 'main'"
+ > git rev-list --no-walk b984d5811e42950143d85c511ff117f1a74a82d6 # timeout=10
+[PatientApiJavaWrnings] $ /home/vagrant/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd findbugs:findbugs checkstyle:checkstyle
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.example:CrudOperation >----------------------
+[INFO] Building CrudOperation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ CrudOperation ---
+[INFO] Deleting /home/vagrant/workspace/PatientApiJavaWrnings/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ CrudOperation ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ CrudOperation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 7 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ CrudOperation ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ CrudOperation ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ CrudOperation ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ CrudOperation ---
+[INFO] Building jar: /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.2:repackage (repackage) @ CrudOperation ---
+[INFO] Replacing main artifact /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ CrudOperation ---
+[INFO] Installing /home/vagrant/workspace/PatientApiJavaWrnings/pom.xml to /home/vagrant/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.pom
+[INFO] Installing /home/vagrant/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar to /home/vagrant/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- pmd:3.22.0:pmd (default-cli) @ CrudOperation ---
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[8mha:////4AGil+7gwDoumgIxB7uz/6SiVseXM3y0Aj77wtdDzvN6AAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] PMD version: 7.0.0
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.3 skin.
+[INFO] 
+[INFO] --- findbugs:3.0.5:findbugs (default-cli) @ CrudOperation ---
+[INFO] Fork Value is true
+     [java] The following errors occurred during analysis:
+     [java]   Error scanning com/example/demo/CrudOperationApplication for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/repository/PatientRepository for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/repository/StudentRepository for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/controller/PatientController for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/controller/HomeController for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/entity/Student for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Error scanning com/example/demo/entity/Patient for referenced classes
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:774)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:222)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Unable to get XClass for org/springframework/context/ConfigurableApplicationContext
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:673)
+     [java]       At edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:966)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:877)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:225)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Unable to get XClass for org/springframework/data/jpa/repository/JpaRepository
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:673)
+     [java]       At edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:966)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:877)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:225)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java]   Unable to get XClass for org/springframework/boot/SpringApplication
+     [java]     java.lang.IllegalArgumentException
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:170)
+     [java]       At org.objectweb.asm.ClassReader.<init>(ClassReader.java:153)
+     [java]       At edu.umd.cs.findbugs.asm.FBClassReader.<init>(FBClassReader.java:35)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)
+     [java]       At edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)
+     [java]       At edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:262)
+     [java]       At edu.umd.cs.findbugs.ba.XFactory.getXClass(XFactory.java:673)
+     [java]       At edu.umd.cs.findbugs.ba.AnalysisContext.setAppClassList(AnalysisContext.java:966)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.setAppClassList(FindBugs2.java:877)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:225)
+     [java]       At edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java]       At edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+     [java] Exception in thread "main" edu.umd.cs.findbugs.NoClassesFoundToAnalyzeException: No classes found to analyze in /home/vagrant/workspace/PatientApiJavaWrnings/target/classes */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.2.2/spring-boot-starter-data-jpa-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.2.2/spring-boot-starter-aop-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/spring-aop/6.1.3/spring-aop-6.1.3.jar */home/vagrant/.m2/repository/org/aspectj/aspectjweaver/1.9.21/aspectjweaver-1.9.21.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.2.2/spring-boot-starter-jdbc-3.2.2.jar */home/vagrant/.m2/repository/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar */home/vagrant/.m2/repository/org/springframework/spring-jdbc/6.1.3/spring-jdbc-6.1.3.jar */home/vagrant/.m2/repository/org/hibernate/orm/hibernate-core/6.4.1.Final/hibernate-core-6.4.1.Final.jar */home/vagrant/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar */home/vagrant/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar */home/vagrant/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar */home/vagrant/.m2/repository/org/springframework/data/spring-data-jpa/3.2.2/spring-data-jpa-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/data/spring-data-commons/3.2.2/spring-data-commons-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/spring-orm/6.1.3/spring-orm-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/spring-context/6.1.3/spring-context-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/spring-tx/6.1.3/spring-tx-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/spring-beans/6.1.3/spring-beans-6.1.3.jar */home/vagrant/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar */home/vagrant/.m2/repository/org/slf4j/slf4j-api/2.0.11/slf4j-api-2.0.11.jar */home/vagrant/.m2/repository/org/springframework/spring-aspects/6.1.3/spring-aspects-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.2.2/spring-boot-starter-web-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter/3.2.2/spring-boot-starter-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot/3.2.2/spring-boot-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.2.2/spring-boot-autoconfigure-3.2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.2.2/spring-boot-starter-logging-3.2.2.jar */home/vagrant/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar */home/vagrant/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar */home/vagrant/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.21.1/log4j-to-slf4j-2.21.1.jar */home/vagrant/.m2/repository/org/apache/logging/log4j/log4j-api/2.21.1/log4j-api-2.21.1.jar */home/vagrant/.m2/repository/org/slf4j/jul-to-slf4j/2.0.11/jul-to-slf4j-2.0.11.jar */home/vagrant/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.2.2/spring-boot-starter-json-3.2.2.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.3/jackson-databind-2.15.3.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.3/jackson-annotations-2.15.3.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.3/jackson-core-2.15.3.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.3/jackson-datatype-jdk8-2.15.3.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.3/jackson-datatype-jsr310-2.15.3.jar */home/vagrant/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.3/jackson-module-parameter-names-2.15.3.jar */home/vagrant/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.2.2/spring-boot-starter-tomcat-3.2.2.jar */home/vagrant/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.18/tomcat-embed-core-10.1.18.jar */home/vagrant/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.18/tomcat-embed-el-10.1.18.jar */home/vagrant/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.18/tomcat-embed-websocket-10.1.18.jar */home/vagrant/.m2/repository/org/springframework/spring-web/6.1.3/spring-web-6.1.3.jar */home/vagrant/.m2/repository/io/micrometer/micrometer-observation/1.12.2/micrometer-observation-1.12.2.jar */home/vagrant/.m2/repository/io/micrometer/micrometer-commons/1.12.2/micrometer-commons-1.12.2.jar */home/vagrant/.m2/repository/org/springframework/spring-webmvc/6.1.3/spring-webmvc-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/spring-expression/6.1.3/spring-expression-6.1.3.jar */home/vagrant/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar */home/vagrant/.m2/repository/org/springframework/spring-core/6.1.3/spring-core-6.1.3.jar */home/vagrant/.m2/repository/org/springframework/spring-jcl/6.1.3/spring-jcl-6.1.3.jar 
+     [java] 	at edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:278)
+     [java] 	at edu.umd.cs.findbugs.FindBugs.runMain(FindBugs.java:402)
+     [java] 	at edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1200)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.114 s
+[INFO] Finished at: 2024-05-28T17:43:40+02:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.codehaus.mojo:findbugs-maven-plugin:3.0.5:findbugs (default-cli) on project CrudOperation: Execution default-cli of goal org.codehaus.mojo:findbugs-maven-plugin:3.0.5:findbugs failed: Java returned: 1 -> [Help 1]
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4MX3wVOsX3sd4kp8tLaNQN5/7WooxJyI4/Of8/UBkSdHAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+[PMDFindBugsCheckStyle] Skipping execution of recorder since overall result is 'FAILURE'
+Finished: FAILURE

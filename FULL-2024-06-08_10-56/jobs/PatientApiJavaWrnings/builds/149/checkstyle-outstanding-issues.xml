@@ -1,0 +1,3377 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@12.3.3">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/home/azureuser/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set">
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocPackageCheck</type>
+          <severity>ERROR</severity>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>0d84f31b-dbb0-4562-b645-53263769148a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName>com.example.demo.controller</packageName>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/controller/HomeController.java</fileName>
+          <message>Missing package-info.java file.</message>
+          <description></description>
+          <fingerprint>3DDD97996FB3E7431A9AE11E7E380F1B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>19</lineStart>
+          <lineEnd>19</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>4f43d68e-d0c8-494c-a4e7-1ee15aa6db3f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Line has trailing spaces.</message>
+          <description></description>
+          <fingerprint>0395592039078F51A834F2F09962F781</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>14ec618f-accd-4328-ab07-f5702e7efb58</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>File contains tab characters (this is the first instance).</message>
+          <description></description>
+          <fingerprint>6A9DD5789BE3E3793F8E25816338B7A4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>9c5cf381-9431-4f7a-b007-de8b974e6e68</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Missing a Javadoc comment.</message>
+          <description></description>
+          <fingerprint>6A9DD5789BE3E3793F8E25816338B7A4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>22</lineStart>
+          <lineEnd>22</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>bd54b15d-a9aa-4f53-b16a-c60a23b345b6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>4EF7AB5572E64972A1F405C94281107F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>23</lineStart>
+          <lineEnd>23</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>acf0d748-3249-43c3-99d3-8c197ce58582</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;index&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;index&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>DBC763DBFD43A4DEC23EA266AF147D4C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>23</lineStart>
+          <lineEnd>23</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>268b4c6e-9954-4e56-9088-68dc2c0023a8</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>DBC763DBFD43A4DEC23EA266AF147D4C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>27</lineStart>
+          <lineEnd>27</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>1c04a51a-115b-49ea-b67a-5f75da59ee11</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>F85F95F8D05CA3A6ED8CF7335C36D710</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>28</lineStart>
+          <lineEnd>28</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>369234de-7d93-4387-be9e-8e216f4f927a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;saveData&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;saveData&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>DF572330AF813DAC97AD7F25EAD5671B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>28</lineStart>
+          <lineEnd>28</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f2316aca-db10-41ab-a27f-196e14f5d259</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>DF572330AF813DAC97AD7F25EAD5671B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>33</columnStart>
+          <columnEnd>33</columnEnd>
+          <lineRanges/>
+          <id>dd32ac6a-a4bb-4172-a1b3-6e27c71daed2</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Parameter student should be final.</message>
+          <description></description>
+          <fingerprint>0C678C45DC51C4902F13399AE8F23C6B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>33</lineStart>
+          <lineEnd>33</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>e5aa1c6e-3239-49b0-8151-04c7b811bd7a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>0DF028720936783BCB8D5D3F275E0599</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>34</lineStart>
+          <lineEnd>34</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>0bdd256d-5ede-4347-9167-40edce2281e3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;getAll&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;getAll&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>3EC590A6C5E2620015665886AE471262</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>34</lineStart>
+          <lineEnd>34</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>7cf3eb76-d1af-49c9-b059-a6f6a7c86c5d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>3EC590A6C5E2620015665886AE471262</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>WhitespaceAroundCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>38</columnStart>
+          <columnEnd>38</columnEnd>
+          <lineRanges/>
+          <id>75a3a93d-0682-4167-b0cf-11860d9c90ef</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>&apos;{&apos; is not preceded with whitespace.</message>
+          <description></description>
+          <fingerprint>2452E7715A7FB32E31FFF98AB082511F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>38</lineStart>
+          <lineEnd>38</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>d68814e5-f9c3-4b27-85e4-2b0c04304970</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>B1A4075E5BDE32C7ADA0E439B12CAA60</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>9a60078c-ee40-472a-8a34-d3e21f1a6fe5</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>D3150AC4F44F10699C74CAF5AD617B03</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>5da64187-4df4-4905-8789-ec8c94884d5f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;deleteStudent&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;deleteStudent&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>49F6A2E56DBD0831B18CDAE245C3C53A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>788820f9-ba47-4e14-9294-90658ce045a0</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>49F6A2E56DBD0831B18CDAE245C3C53A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>42</lineStart>
+          <lineEnd>42</lineEnd>
+          <columnStart>37</columnStart>
+          <columnEnd>37</columnEnd>
+          <lineRanges/>
+          <id>abf0a179-141a-44e9-8f80-58fe5f1dd595</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Parameter rollNo should be final.</message>
+          <description></description>
+          <fingerprint>5268DD0CA2D41D711ED0A99C63BA6D1C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Blocks</category>
+          <type>NeedBracesCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>44</lineStart>
+          <lineEnd>44</lineEnd>
+          <columnStart>17</columnStart>
+          <columnEnd>17</columnEnd>
+          <lineRanges/>
+          <id>a8cd7437-2ed9-475a-811e-c75493fd76be</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>&apos;if&apos; construct must use &apos;{}&apos;s.</message>
+          <description></description>
+          <fingerprint>148F791FB12AF53335FDB091B04339AE</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>365a161c-148c-4f3e-b994-4f978b73b44a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>6B2FD91D41E19DC80500584FB9699D45</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>49</lineStart>
+          <lineEnd>49</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>138d7aa5-041d-4710-bd00-771f0172dc80</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;updateStudentData&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;updateStudentData&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>C6F2EEEB8F9CA7D2085318DBC793BB0F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>49</lineStart>
+          <lineEnd>49</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>69ae8007-0630-4eaf-ba7c-312d5ed350ff</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>C6F2EEEB8F9CA7D2085318DBC793BB0F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>50</lineStart>
+          <lineEnd>50</lineEnd>
+          <columnStart>42</columnStart>
+          <columnEnd>42</columnEnd>
+          <lineRanges/>
+          <id>372b0317-ac6d-4548-9299-81336c4d543d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[11]/message"/>
+          <description></description>
+          <fingerprint>D8C461C2C28DD60C3BAE5A09818F476B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>WhitespaceAroundCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>50</lineStart>
+          <lineEnd>50</lineEnd>
+          <columnStart>71</columnStart>
+          <columnEnd>71</columnEnd>
+          <lineRanges/>
+          <id>57fcb184-5605-4dbc-8f1f-4cab37397552</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[15]/message"/>
+          <description></description>
+          <fingerprint>D8C461C2C28DD60C3BAE5A09818F476B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>54</lineStart>
+          <lineEnd>54</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>8f69dbe1-41aa-4670-abbe-a370e9929062</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>92410963AAAB387A3B2AD7B0417FFDA9</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>55</lineStart>
+          <lineEnd>55</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>36d8e84d-e641-46ee-8cae-1c437a4bc578</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message>Class &apos;HomeController&apos; looks like designed for extension (can be subclassed), but the method &apos;getStudentData&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;HomeController&apos; final or making the method &apos;getStudentData&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>6DB656C1FAA6377ECB0EDC2F9A98709F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>55</lineStart>
+          <lineEnd>55</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>9c8211bb-ec1e-4fbe-8035-deac1cbf2766</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>6DB656C1FAA6377ECB0EDC2F9A98709F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>56</lineStart>
+          <lineEnd>56</lineEnd>
+          <columnStart>39</columnStart>
+          <columnEnd>39</columnEnd>
+          <lineRanges/>
+          <id>e4fc3abd-8cae-485f-bd0f-8b7eaa38e73b</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue/fileName"/>
+          <message reference="../../issue[20]/message"/>
+          <description></description>
+          <fingerprint>A2A06E9424744395B585CE2CD9CB52E3</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>19</lineStart>
+          <lineEnd>19</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>883ccb44-717a-4c46-9e7e-ea267611b170</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/controller/PatientController.java</fileName>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>7A25B1C5FEB63B1521176734E38733F8</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>19</lineStart>
+          <lineEnd>19</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>4f9c2137-c8f8-42d0-87d3-87ea68bc23b0</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[3]/message"/>
+          <description></description>
+          <fingerprint>7A25B1C5FEB63B1521176734E38733F8</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>064d9307-6335-4399-9413-1d40f1c6ca56</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>F92E1F0696111B97DC6E8C7C8548A290</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>22</lineStart>
+          <lineEnd>22</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>b6dc0dc0-e0d1-40b2-b9a5-042bdcb50217</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>6ACCEE0904ECE4848E8C91C423037E07</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>23</lineStart>
+          <lineEnd>23</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>602f47e4-86e1-4160-a2f2-eec7201c3bec</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Class &apos;PatientController&apos; looks like designed for extension (can be subclassed), but the method &apos;GetAll&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PatientController&apos; final or making the method &apos;GetAll&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>6016DF49FFDDD7030757B2F0BA0C8016</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>23</lineStart>
+          <lineEnd>23</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>196d82c8-f77f-48fd-9a90-ca40dade6f2c</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>6016DF49FFDDD7030757B2F0BA0C8016</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MethodNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>24</lineStart>
+          <lineEnd>24</lineEnd>
+          <columnStart>30</columnStart>
+          <columnEnd>30</columnEnd>
+          <lineRanges/>
+          <id>2e6d0b99-cf2b-4cf4-b22c-ac52474aabd6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Name &apos;GetAll&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>F896E11C5959CA5743144DA736342A5F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>28</lineStart>
+          <lineEnd>28</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>27c6ce08-3b27-4fc1-abad-713cf7ff4add</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>BD4E5C0B9983E17BFEF67A53A851A420</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>14713fcc-ce92-4feb-b3ca-dca68ad6a8fb</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Class &apos;PatientController&apos; looks like designed for extension (can be subclassed), but the method &apos;SaveDate&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PatientController&apos; final or making the method &apos;SaveDate&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>148EDD1BE9E1DF671513D1BCCD1A31E8</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>e08db6cd-f7a8-47d8-b063-6470d225c223</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>148EDD1BE9E1DF671513D1BCCD1A31E8</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MethodNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>30</lineStart>
+          <lineEnd>30</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>40f4949e-cdd9-401a-9536-95054a6944e4</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Name &apos;SaveDate&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>42A369F4685BBA26245867AF0AB1FDA4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>30</lineStart>
+          <lineEnd>30</lineEnd>
+          <columnStart>33</columnStart>
+          <columnEnd>33</columnEnd>
+          <lineRanges/>
+          <id>eb46150f-5bc7-4846-a690-2c6e2d55ec2a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Parameter patient should be final.</message>
+          <description></description>
+          <fingerprint>42A369F4685BBA26245867AF0AB1FDA4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>34</lineStart>
+          <lineEnd>34</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>f8a55dee-7ea1-4842-bd57-cbfd4a9070e3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>4CA64328D23371965450013D626E51AA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>6519d8b8-9b51-4217-8f55-a83d979bb366</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Class &apos;PatientController&apos; looks like designed for extension (can be subclassed), but the method &apos;GetPatientById&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PatientController&apos; final or making the method &apos;GetPatientById&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>C9D3DFD77457B4FC69A0207C23DD9D33</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>187da8fe-bef1-4cca-864e-19c7d05ea86e</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>C9D3DFD77457B4FC69A0207C23DD9D33</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MethodNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>36</lineStart>
+          <lineEnd>36</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>03597bd9-980e-401d-a006-2b7d50888d8f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Name &apos;GetPatientById&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>4EE634B8099027D6905201036BA0B7FD</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>36</lineStart>
+          <lineEnd>36</lineEnd>
+          <columnStart>39</columnStart>
+          <columnEnd>39</columnEnd>
+          <lineRanges/>
+          <id>b00ab416-cc84-44e4-8bd4-26c9fa97332a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Parameter idPatient should be final.</message>
+          <description></description>
+          <fingerprint>4EE634B8099027D6905201036BA0B7FD</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Sizes</category>
+          <type>LineLengthCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>37</lineStart>
+          <lineEnd>37</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>31b65e6e-6d18-423f-8c49-faeeff6d881a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Line is longer than 80 characters (found 87).</message>
+          <description></description>
+          <fingerprint>6B0B60BB8102DA6614A7D4BB584B830C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>d3a1c22c-46cf-47b4-8e1d-fd0b1a3e91ff</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>C1A2008967D3F173534C9D08A2C07BE9</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>c6db3832-94c8-49bc-a34e-cd67737b467a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Class &apos;PatientController&apos; looks like designed for extension (can be subclassed), but the method &apos;DeletePatient&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PatientController&apos; final or making the method &apos;DeletePatient&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>FAF9457FA4D3EFFAFBB1582421FB23AF</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>d8e19090-2288-47f7-8fe6-11079ff80334</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>FAF9457FA4D3EFFAFBB1582421FB23AF</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MethodNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>42</lineStart>
+          <lineEnd>42</lineEnd>
+          <columnStart>23</columnStart>
+          <columnEnd>23</columnEnd>
+          <lineRanges/>
+          <id>c7b3876c-cd8a-4950-9c56-05eb5bb6b0d1</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Name &apos;DeletePatient&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>DCFAA7DD1C019C7393E9BED06225AB2D</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>42</lineStart>
+          <lineEnd>42</lineEnd>
+          <columnStart>37</columnStart>
+          <columnEnd>37</columnEnd>
+          <lineRanges/>
+          <id>03ec3080-9000-47ab-906e-e5c200e22a6e</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[47]/message"/>
+          <description></description>
+          <fingerprint>DCFAA7DD1C019C7393E9BED06225AB2D</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Sizes</category>
+          <type>LineLengthCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>43</lineStart>
+          <lineEnd>43</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>8a17ed2a-ed8a-4ca2-bb9f-c8b43b56af47</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Line is longer than 80 characters (found 89).</message>
+          <description></description>
+          <fingerprint>C0E72142396A09D7E520D55BC9C67069</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Blocks</category>
+          <type>NeedBracesCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>44</lineStart>
+          <lineEnd>44</lineEnd>
+          <columnStart>17</columnStart>
+          <columnEnd>17</columnEnd>
+          <lineRanges/>
+          <id>87af8e69-a08f-41d8-8f80-f5dd065bd366</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[21]/message"/>
+          <description></description>
+          <fingerprint>9337C0B7DBE538232DA36C8C933B1648</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>b8cf7a8b-d79f-409a-9891-f9e4cffc90c3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>1F1A3D2A1A601FF8D70CC229B72E7CAE</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>49</lineStart>
+          <lineEnd>49</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>475ab572-d932-4616-9275-3b0cd38e5f76</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Class &apos;PatientController&apos; looks like designed for extension (can be subclassed), but the method &apos;UpdatePatient&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;PatientController&apos; final or making the method &apos;UpdatePatient&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>4DE5022BD550D8941DC6D7E4C2F35C15</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>49</lineStart>
+          <lineEnd>49</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>53aeaee2-f011-4595-9863-6043bdb51d1d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>4DE5022BD550D8941DC6D7E4C2F35C15</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MethodNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>50</lineStart>
+          <lineEnd>50</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>48350b02-e765-40c4-ab47-68d4b79794f5</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message>Name &apos;UpdatePatient&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>72FBAF07F416722BC708685E08BCDB1F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>50</lineStart>
+          <lineEnd>50</lineEnd>
+          <columnStart>38</columnStart>
+          <columnEnd>38</columnEnd>
+          <lineRanges/>
+          <id>d71c05e7-524e-4c0a-89cd-5df33fa406b4</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[31]/fileName"/>
+          <message reference="../../issue[42]/message"/>
+          <description></description>
+          <fingerprint>72FBAF07F416722BC708685E08BCDB1F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocPackageCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>74f39be1-3d18-4003-a81f-053d02cfc5c1</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName>com.example.demo.repository</packageName>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/repository/PatientRepository.java</fileName>
+          <message reference="../../issue/message"/>
+          <description></description>
+          <fingerprint>49233FF0A7630CFD4B9E5246F46A8842</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocPackageCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>c9910a4a-86b7-4122-a9dd-d9db044b80db</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName>com.example.demo</packageName>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/CrudOperationApplication.java</fileName>
+          <message reference="../../issue/message"/>
+          <description></description>
+          <fingerprint>0182B4B334C07281316C72AD1FD382CA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>HideUtilityClassConstructorCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>6</lineStart>
+          <lineEnd>6</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>868a9b05-541c-41be-ab40-ceaf6c30a287</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[62]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[62]/fileName"/>
+          <message>Utility classes should not have a public or default constructor.</message>
+          <description></description>
+          <fingerprint>E74D80E92C3FBEBF58A67941A4941767</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>c9ed46c7-8614-4877-b54d-d3e1650dfc32</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[62]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[62]/fileName"/>
+          <message reference="../../issue[3]/message"/>
+          <description></description>
+          <fingerprint>31D868835A90CB9E8B2FEB1EFD7FA3E1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>69eb9bea-79ea-4c43-a651-cdd5c7b1affd</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[62]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[62]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>31D868835A90CB9E8B2FEB1EFD7FA3E1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>33</columnStart>
+          <columnEnd>33</columnEnd>
+          <lineRanges/>
+          <id>5013334d-ca22-447e-b0b8-d7987bcd8e54</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[62]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[62]/fileName"/>
+          <message>Parameter args should be final.</message>
+          <description></description>
+          <fingerprint>31D868835A90CB9E8B2FEB1EFD7FA3E1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocPackageCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>1</lineStart>
+          <lineEnd>1</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>53349b33-ed47-443e-978c-7f05540eb5cc</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName>com.example.demo.entity</packageName>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/entity/Student.java</fileName>
+          <message reference="../../issue/message"/>
+          <description></description>
+          <fingerprint>A3F630A4FCF4599BF8B08352E98BB2C7</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>8</lineStart>
+          <lineEnd>8</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>97620610-2de8-4780-86aa-ea45c56aacd5</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>64D4AEF7F05C2B326EBFBC38DDCF086A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>8</lineStart>
+          <lineEnd>8</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>09e1268f-ec0e-47ab-b44c-33b25ab52b8f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[3]/message"/>
+          <description></description>
+          <fingerprint>64D4AEF7F05C2B326EBFBC38DDCF086A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>e6c7c41b-0568-48ea-8df4-be231449c1ea</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>15B8C09990DE7806AA4736093A4A957C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>11</lineStart>
+          <lineEnd>11</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f14b054e-b951-4a60-8bea-f804ef176c46</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>34BA3D173D9436609FA069263621F052</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>e2c6248f-ba1c-4f9a-87f2-78c0ec2bd96a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>3238B2F39A1C0FCD06CA4336049F2ECC</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Naming</category>
+          <type>MemberNameCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>6ad6e115-ef5e-40c8-ab08-8d383641c5c2</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Name &apos;Address&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;.</message>
+          <description></description>
+          <fingerprint>3238B2F39A1C0FCD06CA4336049F2ECC</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>13</lineStart>
+          <lineEnd>13</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>e981d152-aafc-4aa2-9c8e-0e63fa820302</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>01209DAD4A3E18404B76C7B721DAE344</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>14</lineStart>
+          <lineEnd>14</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>0abf0d48-b5b7-4c6a-8de5-a52fd5bc323d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>E3444D7AEDA46CAF8C4655CE46C2D73A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>15</lineStart>
+          <lineEnd>15</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>eeeff1e6-2b59-400f-b7e3-e2f83f47a478</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>D7A4BC672DAF411A44A29AF6C782517D</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>16</lineStart>
+          <lineEnd>16</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>6a099473-b4de-459c-b3e9-094b49100ab6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>440C535C01FAF6CE806E07263B6D0DBC</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>8e53c703-179c-4c43-a740-c78d79fa1c7d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>f9f47134-54e5-4238-af8a-04eae69721f6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[20]/message"/>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>28</columnStart>
+          <columnEnd>28</columnEnd>
+          <lineRanges/>
+          <id>051431a7-eb62-4b13-a415-e2524b5c767e</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>&apos;rollNo&apos; hides a field.</message>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>36</columnStart>
+          <columnEnd>36</columnEnd>
+          <lineRanges/>
+          <id>13133908-025d-4a14-8475-3e622abaab48</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Parameter name should be final.</message>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>43</columnStart>
+          <columnEnd>43</columnEnd>
+          <lineRanges/>
+          <id>ec0e01c0-231b-4491-a3d1-4b17357453f8</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>&apos;name&apos; hides a field.</message>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>49</columnStart>
+          <columnEnd>49</columnEnd>
+          <lineRanges/>
+          <id>a3bd6fc0-5ff5-47de-bfd4-7abb53e82bf6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Parameter address should be final.</message>
+          <description></description>
+          <fingerprint>3C264E94BCDFA956831AA712F83A8139</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>26</lineStart>
+          <lineEnd>26</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>3df45c3d-f65e-4c8e-9f77-282089001974</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;getRollNo&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;getRollNo&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>6BF47D853AEE114332DEB9AD71D2C2E0</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>26</lineStart>
+          <lineEnd>26</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>b6146dac-933b-4dc1-973d-e70b066d5eb9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>6BF47D853AEE114332DEB9AD71D2C2E0</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>e5b290d4-1b42-4707-b653-1710dd467238</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;setRollNo&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;setRollNo&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>944BD336E1355C68562C51D309545F89</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>a69bd8b7-06fc-43ea-a6c5-5ebdaf0be502</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>944BD336E1355C68562C51D309545F89</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>31</columnStart>
+          <columnEnd>31</columnEnd>
+          <lineRanges/>
+          <id>7706aa3c-fff9-4b14-915c-efbee385a698</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[20]/message"/>
+          <description></description>
+          <fingerprint>944BD336E1355C68562C51D309545F89</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>29</lineStart>
+          <lineEnd>29</lineEnd>
+          <columnStart>35</columnStart>
+          <columnEnd>35</columnEnd>
+          <lineRanges/>
+          <id>64e46793-4d06-4eb9-90b8-ac2c17d62397</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[80]/message"/>
+          <description></description>
+          <fingerprint>944BD336E1355C68562C51D309545F89</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>a77ecc9f-9b68-4b99-aea1-b7b48fb88329</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>BB8B3026CC4EBECCD583C8D42B99D37C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>ffad9d48-7c61-49ae-89f2-a160969c6ec3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>BB8B3026CC4EBECCD583C8D42B99D37C</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>d685a7e5-c757-4dbd-9d3a-a29fafee7610</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;setName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;setName&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>CCD1150AF4C834418B4BCD3F5C017893</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>c8f45f6b-7bff-4aea-977e-58ef5443aaa9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>CCD1150AF4C834418B4BCD3F5C017893</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>29</columnStart>
+          <columnEnd>29</columnEnd>
+          <lineRanges/>
+          <id>3fc9513f-8fe5-40b2-9d31-d21686b8618d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[81]/message"/>
+          <description></description>
+          <fingerprint>CCD1150AF4C834418B4BCD3F5C017893</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>35</lineStart>
+          <lineEnd>35</lineEnd>
+          <columnStart>36</columnStart>
+          <columnEnd>36</columnEnd>
+          <lineRanges/>
+          <id>e0961259-3bd2-4b1d-babe-95be8e5cf41f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[82]/message"/>
+          <description></description>
+          <fingerprint>CCD1150AF4C834418B4BCD3F5C017893</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>38</lineStart>
+          <lineEnd>38</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f09192cb-670e-4f20-971f-f1b9e86bc0fc</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;getAddress&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;getAddress&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>AD856B62E5B824F2A578F92E99B9C6FA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>38</lineStart>
+          <lineEnd>38</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>5d9d5ea0-7557-421a-97ac-1961b2439d66</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>AD856B62E5B824F2A578F92E99B9C6FA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f8d7fd44-3997-4a02-b961-54e0ced3ff91</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;setAddress&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;setAddress&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>B6EF3C2593390E9AB314AEC2CC7C1AA4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>054a41a2-5858-4eaf-ac85-dda5342e0357</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>B6EF3C2593390E9AB314AEC2CC7C1AA4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>41</lineStart>
+          <lineEnd>41</lineEnd>
+          <columnStart>32</columnStart>
+          <columnEnd>32</columnEnd>
+          <lineRanges/>
+          <id>d760a647-f56f-4a6b-b558-fd8885e26e57</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[83]/message"/>
+          <description></description>
+          <fingerprint>B6EF3C2593390E9AB314AEC2CC7C1AA4</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>44</lineStart>
+          <lineEnd>44</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>9f40577a-3c5e-4b6d-a5ca-b5a7adc0f4e3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Class &apos;Student&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Student&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>AC419F9F6388B2EA751963F7CC81DE14</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Sizes</category>
+          <type>LineLengthCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>46</lineStart>
+          <lineEnd>46</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>958cc052-823a-4ac5-b5c7-3bd34feb820f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message>Line is longer than 80 characters (found 101).</message>
+          <description></description>
+          <fingerprint>4CFAEC9CBE61EFBE850EA8FED6162044</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>bfe3b563-e80f-4f40-a5b2-cb3bb0b0724d</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[67]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>5D5CFEFE65A27261739C0E202062F93E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Whitespace</category>
+          <type>FileTabCharacterCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>1</columnStart>
+          <columnEnd>1</columnEnd>
+          <lineRanges/>
+          <id>b6a7c7c6-153f-40bc-8508-b95e7591ec87</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName>src/main/java/com/example/demo/entity/Patient.java</fileName>
+          <message reference="../../issue[3]/message"/>
+          <description></description>
+          <fingerprint>555DB7ECB9143C670D213B3129F5D14A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>9</lineStart>
+          <lineEnd>9</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>0362f3d6-a1ae-42bf-bda0-884c43c9c337</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>555DB7ECB9143C670D213B3129F5D14A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>VisibilityModifierCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>10</lineStart>
+          <lineEnd>10</lineEnd>
+          <columnStart>13</columnStart>
+          <columnEnd>13</columnEnd>
+          <lineRanges/>
+          <id>5cd4cf4e-dda7-4168-a55d-d4780dc382ff</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Variable &apos;idPatient&apos; must be private and have accessor methods.</message>
+          <description></description>
+          <fingerprint>DA159FEF7F7773C482535DEAFB3ADD7F</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>11</lineStart>
+          <lineEnd>11</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>0a17a978-2ca6-4001-b670-85a7f553d4c6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>16F82ABE69E6BADD46D3227130633388</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>VisibilityModifierCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>11</lineStart>
+          <lineEnd>11</lineEnd>
+          <columnStart>16</columnStart>
+          <columnEnd>16</columnEnd>
+          <lineRanges/>
+          <id>e9631ab1-4ad0-4d49-a322-afc77bec080a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Variable &apos;name&apos; must be private and have accessor methods.</message>
+          <description></description>
+          <fingerprint>16F82ABE69E6BADD46D3227130633388</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>af9a6e77-dc63-4713-88b6-be7baae8e9f9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>DEF92F6A2D156285320602133405C5BA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>VisibilityModifierCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>12</lineStart>
+          <lineEnd>12</lineEnd>
+          <columnStart>16</columnStart>
+          <columnEnd>16</columnEnd>
+          <lineRanges/>
+          <id>ce4134e8-d659-4d96-bc2a-5d521739ee85</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Variable &apos;eMail&apos; must be private and have accessor methods.</message>
+          <description></description>
+          <fingerprint>DEF92F6A2D156285320602133405C5BA</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>JavadocVariableCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>13</lineStart>
+          <lineEnd>13</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>ca0f2527-11e0-45f3-908a-192676b60009</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>0A90839517CD251B78A2DC77FB78666D</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>VisibilityModifierCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>13</lineStart>
+          <lineEnd>13</lineEnd>
+          <columnStart>16</columnStart>
+          <columnEnd>16</columnEnd>
+          <lineRanges/>
+          <id>d02f08e3-3975-4369-b277-97d564656dc8</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Variable &apos;tel&apos; must be private and have accessor methods.</message>
+          <description></description>
+          <fingerprint>0A90839517CD251B78A2DC77FB78666D</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>14</lineStart>
+          <lineEnd>14</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>dedb29b9-f910-4ca1-84d8-94164f0e39c9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>E07BB656243D154C274E3A03EB6C7A90</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>15</lineStart>
+          <lineEnd>15</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>2ee04c04-54c9-4004-8ecc-cd8fab948dd0</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>7D1EF0D76FDA37A96538E3C2D05F976A</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>d04d9ea0-54d9-4baa-969e-02f54e86ba56</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>24</columnStart>
+          <columnEnd>24</columnEnd>
+          <lineRanges/>
+          <id>a639757e-26c9-4a94-8b32-196a73c15362</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[47]/message"/>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>28</columnStart>
+          <columnEnd>28</columnEnd>
+          <lineRanges/>
+          <id>8ebeda42-df6c-4267-9d07-459deeaf0eda</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>&apos;idPatient&apos; hides a field.</message>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>39</columnStart>
+          <columnEnd>39</columnEnd>
+          <lineRanges/>
+          <id>178e8d27-eb2f-418c-91cd-1293f6940ca4</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[81]/message"/>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>46</columnStart>
+          <columnEnd>46</columnEnd>
+          <lineRanges/>
+          <id>988e88fe-52c5-404e-9588-0177f838c950</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[82]/message"/>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>52</columnStart>
+          <columnEnd>52</columnEnd>
+          <lineRanges/>
+          <id>aa0a8f9a-2d57-4b53-96d4-3da38ad17a91</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Parameter eMail should be final.</message>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>59</columnStart>
+          <columnEnd>59</columnEnd>
+          <lineRanges/>
+          <id>2d805e16-f5bc-475e-8831-1b6597286af0</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>&apos;eMail&apos; hides a field.</message>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>66</columnStart>
+          <columnEnd>66</columnEnd>
+          <lineRanges/>
+          <id>5240f3f5-42ad-4ee3-ab42-7475ea72dadd</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Parameter tel should be final.</message>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>20</lineStart>
+          <lineEnd>20</lineEnd>
+          <columnStart>73</columnStart>
+          <columnEnd>73</columnEnd>
+          <lineRanges/>
+          <id>3c534465-89c9-4a16-95c6-38c583ce8777</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>&apos;tel&apos; hides a field.</message>
+          <description></description>
+          <fingerprint>6E7DE2981953599D95B3616E2CD3FE12</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>28</lineStart>
+          <lineEnd>28</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f723cd22-b728-4748-9d9e-b8775f01cca7</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;getIdPatient&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;getIdPatient&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>D78DFFBB20BDE0DBC9E502F91C3C64C5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>28</lineStart>
+          <lineEnd>28</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>d8ec6f31-07c1-49b1-a603-fc5caad1964a</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>D78DFFBB20BDE0DBC9E502F91C3C64C5</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>6bc755ff-935e-424d-9f3b-6f4512a472df</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;setIdPatient&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;setIdPatient&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>22CDC94F2D0EDF3FC02C3CAA4C051746</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>749f7d3a-91b1-4854-966f-78e8982669e7</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>22CDC94F2D0EDF3FC02C3CAA4C051746</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>34</columnStart>
+          <columnEnd>34</columnEnd>
+          <lineRanges/>
+          <id>c1840852-a499-4ce1-b149-36e29539c5fd</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[47]/message"/>
+          <description></description>
+          <fingerprint>22CDC94F2D0EDF3FC02C3CAA4C051746</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>32</lineStart>
+          <lineEnd>32</lineEnd>
+          <columnStart>38</columnStart>
+          <columnEnd>38</columnEnd>
+          <lineRanges/>
+          <id>0da4be4b-2f5a-402a-90bd-829e9f198431</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[117]/message"/>
+          <description></description>
+          <fingerprint>22CDC94F2D0EDF3FC02C3CAA4C051746</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>36</lineStart>
+          <lineEnd>36</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>85239c95-c719-4f56-b8e0-64fe2afb71e6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;getName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;getName&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>6CE4BC7449682C7782CCDBEF7FCDBFE3</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>36</lineStart>
+          <lineEnd>36</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>8267e982-f0d5-4f38-86e6-e9b8e42253d7</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>6CE4BC7449682C7782CCDBEF7FCDBFE3</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>0921049f-093d-45f7-b6d8-7a1cc17afd8f</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;setName&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;setName&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>ABEAB8CE40317486ACB5A9C52484ACB1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>04962fbb-a50f-44b9-8c76-65a52dd62ba9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>ABEAB8CE40317486ACB5A9C52484ACB1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>29</columnStart>
+          <columnEnd>29</columnEnd>
+          <lineRanges/>
+          <id>4f4a7dce-a0b9-41ee-aecb-832eb664c049</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[81]/message"/>
+          <description></description>
+          <fingerprint>ABEAB8CE40317486ACB5A9C52484ACB1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>40</lineStart>
+          <lineEnd>40</lineEnd>
+          <columnStart>36</columnStart>
+          <columnEnd>36</columnEnd>
+          <lineRanges/>
+          <id>3a9422e6-473e-4f6f-853c-6bd27d2c34ec</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[82]/message"/>
+          <description></description>
+          <fingerprint>ABEAB8CE40317486ACB5A9C52484ACB1</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>44</lineStart>
+          <lineEnd>44</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>00d14f0c-69f2-4093-9fb8-a0e069cd9fa3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;geteMail&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;geteMail&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>0E5758A4ADB9916293E5DD953014456B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>44</lineStart>
+          <lineEnd>44</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>050cc818-fe9e-4d71-8ccb-a777eb6fe6c9</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>0E5758A4ADB9916293E5DD953014456B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>1f7c6fd1-cd7a-458c-96a5-a3ad84edf5db</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;seteMail&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;seteMail&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>F7A5916486547EFE6A61C24E96EFDAF2</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>76f412e6-6ccd-4421-a470-83df161989ee</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>F7A5916486547EFE6A61C24E96EFDAF2</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>30</columnStart>
+          <columnEnd>30</columnEnd>
+          <lineRanges/>
+          <id>0c26e49c-8d87-47c6-996a-e92a270aad0e</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[120]/message"/>
+          <description></description>
+          <fingerprint>F7A5916486547EFE6A61C24E96EFDAF2</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>48</lineStart>
+          <lineEnd>48</lineEnd>
+          <columnStart>37</columnStart>
+          <columnEnd>37</columnEnd>
+          <lineRanges/>
+          <id>b67a7e2c-fba9-43ab-916e-3f066fbe5539</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[121]/message"/>
+          <description></description>
+          <fingerprint>F7A5916486547EFE6A61C24E96EFDAF2</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>52</lineStart>
+          <lineEnd>52</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>f15b08af-6d37-44f2-af1f-4547ebb8c0ea</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;getTel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;getTel&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>DA0BDE51135D3FF08EEF2DEE4EBF77D3</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>52</lineStart>
+          <lineEnd>52</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>5c6aa2d1-ea87-4201-ad60-2ebe191eee18</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>DA0BDE51135D3FF08EEF2DEE4EBF77D3</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>56</lineStart>
+          <lineEnd>56</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>e4c24c02-c1a7-48ea-a119-a254608d6dfa</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;setTel&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;setTel&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>576532E3716C68A45D781202AA520C4B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Javadoc</category>
+          <type>MissingJavadocMethodCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>56</lineStart>
+          <lineEnd>56</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>87b71aa0-4449-49fa-9637-3dfcca15bfa6</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[4]/message"/>
+          <description></description>
+          <fingerprint>576532E3716C68A45D781202AA520C4B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Checks</category>
+          <type>FinalParametersCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>56</lineStart>
+          <lineEnd>56</lineEnd>
+          <columnStart>28</columnStart>
+          <columnEnd>28</columnEnd>
+          <lineRanges/>
+          <id>b51f2840-0313-4d2d-ba63-3495adc2712b</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[122]/message"/>
+          <description></description>
+          <fingerprint>576532E3716C68A45D781202AA520C4B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Coding</category>
+          <type>HiddenFieldCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>56</lineStart>
+          <lineEnd>56</lineEnd>
+          <columnStart>35</columnStart>
+          <columnEnd>35</columnEnd>
+          <lineRanges/>
+          <id>a273bada-01f4-4a02-b458-233413335031</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[123]/message"/>
+          <description></description>
+          <fingerprint>576532E3716C68A45D781202AA520C4B</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Design</category>
+          <type>DesignForExtensionCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>60</lineStart>
+          <lineEnd>60</lineEnd>
+          <columnStart>9</columnStart>
+          <columnEnd>9</columnEnd>
+          <lineRanges/>
+          <id>12358a46-8c2c-4b00-af9e-32b0082dbc23</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Class &apos;Patient&apos; looks like designed for extension (can be subclassed), but the method &apos;toString&apos; does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class &apos;Patient&apos; final or making the method &apos;toString&apos; static/final/abstract/empty, or adding allowed annotation for the method.</message>
+          <description></description>
+          <fingerprint>875CA81EBCD2B37755FD8B6C40AC4B11</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Sizes</category>
+          <type>LineLengthCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>62</lineStart>
+          <lineEnd>62</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>bd706850-e3e4-4eeb-8ec4-5d814a7313f4</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message>Line is longer than 80 characters (found 120).</message>
+          <description></description>
+          <fingerprint>DD921BF6765356CFC2BA073352AB8E27</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>64</lineStart>
+          <lineEnd>64</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>b8968c1d-9c1e-4910-8457-c3a80c751850</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>7913D4728C71122C8AF2867266C06B1E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+        <issue>
+          <category>Regexp</category>
+          <type>RegexpSinglelineCheck</type>
+          <severity reference="../../issue/severity"/>
+          <lineStart>65</lineStart>
+          <lineEnd>65</lineEnd>
+          <columnStart>0</columnStart>
+          <columnEnd>0</columnEnd>
+          <lineRanges/>
+          <id>78f564cb-9b6c-4567-9723-516749152cc3</id>
+          <reference>149</reference>
+          <origin>checkstyle</origin>
+          <originName>CheckStyle</originName>
+          <moduleName>CrudOperation</moduleName>
+          <packageName reference="../../issue[67]/packageName"/>
+          <pathName>/home/azureuser/workspace/PatientApiJavaWrnings</pathName>
+          <fileName reference="../../issue[104]/fileName"/>
+          <message reference="../../issue[2]/message"/>
+          <description></description>
+          <fingerprint>04980FB44AAA94BA7D8A184E1D1ADB1E</fingerprint>
+          <partOfModifiedCode>false</partOfModifiedCode>
+        </issue>
+      </elements>
+      <infoMessages>
+        <string>Searching for all files in &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+        <string>Traversing of symbolic links: enabled</string>
+        <string>-&gt; found 1 file</string>
+        <string>Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml</string>
+        <string>-&gt; found 151 issues (skipped 0 duplicates)</string>
+        <string>Successfully processed file &apos;target/checkstyle-result.xml&apos;</string>
+        <string>Post processing issues on &apos;uat&apos; with source code encoding &apos;UTF-8&apos;</string>
+        <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+        <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+        <string>Resolving file names for all issues in workspace &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos;</string>
+        <string>-&gt; resolved paths in source directory (6 found, 0 not found)</string>
+        <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+        <string>-&gt; resolved module names for 151 issues</string>
+        <string>Resolving package names (or namespaces) by parsing the affected files</string>
+        <string>-&gt; resolved package names of 6 affected files</string>
+        <string>No filter has been set, publishing all 151 issues</string>
+        <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+        <string>-&gt; created fingerprints for 151 issues (skipped 0 issues)</string>
+      </infoMessages>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/149/files-with-issues&apos;</string>
+    <string>-&gt; 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>No valid reference build found</string>
+    <string>All reported issues will be considered outstanding</string>
+    <string>No quality gates have been set - skipping</string>
+    <string>Health report is disabled - skipping</string>
+    <string>Created analysis result for 151 issues (found 0 new issues, fixed 0 issues)</string>
+    <string>Attaching ResultAction with ID &apos;checkstyle&apos; to build &apos;PatientApiJavaWrnings #149&apos;.</string>
+  </infoMessages>
+  <errorMessages/>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

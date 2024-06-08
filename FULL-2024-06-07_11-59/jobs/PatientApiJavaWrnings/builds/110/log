@@ -1,0 +1,40 @@
+Started by upstream project "[8mha:////4A4nrGdOs3ZGWNduKsMFTW1y4Z5FeaPyNFuqrnBtLF3LAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2AxJLM1LwSx4JML5CJAOUrCtbJAAAA[0mPatientApiJava" build number [8mha:////4KzEzbgHKeYk60oV5b/Uj4taWCU0rzc5aq9wV/UOR0uIAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZx/az8JP2AxJLM1LwSx4JML5CJhuamAO47gbDMAAAA[0m175
+originally caused by:
+ Started by GitLab push by Florent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4J4v188NQQ8g7oTUXNKQLS2M7SkGYG4G41bGxjb3liTUAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/azureuser/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision fa04ae02f1b81a849b130774000c4ad4affc520b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fa04ae02f1b81a849b130774000c4ad4affc520b # timeout=10
+Commit message: "Merge branch 'test_hook' into 'main'"
+ > git rev-list --no-walk 9e9930662be08b3e3a0978e51824e49a5c61bb2c # timeout=10
+[PatientApiJavaWrnings] $ /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd checkstyle:checkstyle
+[INFO] Scanning for projects...
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/azureuser/workspace/PatientApiJavaWrnings/pom.xml: Unrecognised tag: 'activation' (position: START_TAG seen ...</activeByDefault>\n\t\t<activation>... @75:15)  @ line 75, column 15
+ @ 
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] The build could not read 1 project -> [Help 1]
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]   The project  (/home/azureuser/workspace/PatientApiJavaWrnings/pom.xml) has 1 error
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR]     Non-parseable POM /home/azureuser/workspace/PatientApiJavaWrnings/pom.xml: Unrecognised tag: 'activation' (position: START_TAG seen ...</activeByDefault>\n\t\t<activation>... @75:15)  @ line 75, column 15 -> [Help 2]
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/ModelParseException
+Build step 'Invoke top-level Maven targets' marked build as failure
+[PMDCheckStyle] Skipping execution of recorder since overall result is 'FAILURE'
+Finished: FAILURE

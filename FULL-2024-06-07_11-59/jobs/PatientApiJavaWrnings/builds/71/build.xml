@@ -1,0 +1,360 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+            <upstreamProject>PatientApiJava</upstreamProject>
+            <upstreamUrl>job/PatientApiJava/</upstreamUrl>
+            <upstreamBuild>136</upstreamBuild>
+            <upstreamCauses>
+              <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.8.1">
+                <data>
+                  <actionType>PUSH</actionType>
+                  <sourceProjectId>56498231</sourceProjectId>
+                  <targetProjectId>56498231</targetProjectId>
+                  <branch>test_hook</branch>
+                  <sourceBranch>test_hook</sourceBranch>
+                  <userName>Florent Nkenda Mayala</userName>
+                  <userUsername>fnkenda</userUsername>
+                  <userEmail></userEmail>
+                  <sourceRepoHomepage>https://gitlab.com/fnkenda/ehealthpatientapijava</sourceRepoHomepage>
+                  <sourceRepoName>eHealthPatientApiJava</sourceRepoName>
+                  <sourceNamespace>Florent Nkenda Mayala</sourceNamespace>
+                  <sourceRepoUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoUrl>
+                  <sourceRepoSshUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoSshUrl>
+                  <sourceRepoHttpUrl>https://gitlab.com/fnkenda/ehealthpatientapijava.git</sourceRepoHttpUrl>
+                  <mergeCommitSha></mergeCommitSha>
+                  <mergeRequestTitle></mergeRequestTitle>
+                  <mergeRequestDescription></mergeRequestDescription>
+                  <mergeRequestState></mergeRequestState>
+                  <mergedByUser></mergedByUser>
+                  <mergeRequestAssignee></mergeRequestAssignee>
+                  <targetBranch>test_hook</targetBranch>
+                  <targetRepoName></targetRepoName>
+                  <targetNamespace></targetNamespace>
+                  <targetRepoSshUrl></targetRepoSshUrl>
+                  <targetRepoHttpUrl></targetRepoHttpUrl>
+                  <triggeredByUser>Florent Nkenda Mayala</triggeredByUser>
+                  <before>0000000000000000000000000000000000000000</before>
+                  <after>f673827f3d1e77134f07b43c0eb0ff9884c2c09d</after>
+                  <lastCommit>f673827f3d1e77134f07b43c0eb0ff9884c2c09d</lastCommit>
+                  <targetProjectUrl>https://gitlab.com/fnkenda/ehealthpatientapijava</targetProjectUrl>
+                </data>
+              </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+            </upstreamCauses>
+            <nodeId>26</nodeId>
+          </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+      <upstreamNodeId>26</upstreamNodeId>
+      <upstreamRunId>PatientApiJava#136</upstreamRunId>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+      <triggers>
+        <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+          <context class="org.jenkinsci.plugins.workflow.cps.CpsStepContext" plugin="workflow-cps@3894.3896.vca_2c931e7935">
+            <executionRef class="flow-owner" plugin="workflow-job@1400.v7fd111b_ec82f">
+              <job>PatientApiJava</job>
+              <id>136</id>
+            </executionRef>
+            <id>26</id>
+            <bodyHeads/>
+            <threadId>14</threadId>
+            <stepDescriptorId>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStep</stepDescriptorId>
+          </context>
+          <propagate>true</propagate>
+          <waitForStart>false</waitForStart>
+        </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>5810</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>1</buildableDurationMillis>
+      <waitingDurationMillis>5807</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.7.0">
+              <sha1>b27096d0adcc4709a9d612fc145efaa109f26eb7</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>71</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://gitlab.com/fnkenda/ehealthpatientapijava.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+    <io.jenkins.plugins.analysis.core.model.AggregationAction plugin="warnings-ng@11.3.0"/>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@11.3.0">
+      <result>
+        <id>pmd</id>
+        <totals>
+          <totalErrorSize>0</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>1</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <totalModifiedSize>0</totalModifiedSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <newModifiedSize>0</newModifiedSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>HIGH</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>LOW</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>ERROR</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@12.3.3">
+                <name>NORMAL</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>1</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>pmd</string>
+            <int>1</int>
+          </entry>
+        </sizePerOrigin>
+        <errors/>
+        <messages>
+          <string>Searching for all files in &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos; that match the pattern &apos;**/pmd.xml&apos;</string>
+          <string>Traversing of symbolic links: enabled</string>
+          <string>-&gt; found 1 file</string>
+          <string>Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/pmd.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;target/pmd.xml&apos;</string>
+          <string>Post processing issues on &apos;uat&apos; with source code encoding &apos;UTF-8&apos;</string>
+          <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+          <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+          <string>Resolving file names for all issues in workspace &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos;</string>
+          <string>-&gt; resolved paths in source directory (1 found, 0 not found)</string>
+          <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+          <string>-&gt; resolved module names for 1 issues</string>
+          <string>Resolving package names (or namespaces) by parsing the affected files</string>
+          <string>-&gt; all affected files already have a valid package name</string>
+          <string>No filter has been set, publishing all 1 issues</string>
+          <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+          <string>-&gt; created fingerprints for 1 issues (skipped 0 issues)</string>
+          <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/71/files-with-issues&apos;</string>
+          <string>-&gt; 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+          <string>Deleting source code files of build #70</string>
+          <string>Repository miner is not configured, skipping repository mining</string>
+          <string>Reference build recorder is not configured</string>
+          <string>No valid reference build found</string>
+          <string>All reported issues will be considered outstanding</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;pmd&apos; to build &apos;PatientApiJavaWrnings #71&apos;.</string>
+        </messages>
+        <referenceBuildId></referenceBuildId>
+        <noIssuesSinceBuild>-1</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateResult plugin="plugin-util-api@4.1.0">
+          <overallStatus>INACTIVE</overallStatus>
+          <items/>
+        </qualityGateResult>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity plugin="analysis-model-api@12.3.3">
+          <name>LOW</name>
+        </minimumSeverity>
+      </healthDescriptor>
+      <id>pmd</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@11.3.0">
+      <result>
+        <id>checkstyle</id>
+        <totals>
+          <totalErrorSize>151</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>0</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <totalModifiedSize>0</totalModifiedSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <newModifiedSize>0</newModifiedSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>151</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../../../../io.jenkins.plugins.analysis.core.model.ResultAction/result/totals/totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>checkstyle</string>
+            <int>151</int>
+          </entry>
+        </sizePerOrigin>
+        <errors/>
+        <messages>
+          <string>Searching for all files in &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos; that match the pattern &apos;**/checkstyle-result.xml&apos;</string>
+          <string>Traversing of symbolic links: enabled</string>
+          <string>-&gt; found 1 file</string>
+          <string>Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml</string>
+          <string>-&gt; found 151 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;target/checkstyle-result.xml&apos;</string>
+          <string>Post processing issues on &apos;uat&apos; with source code encoding &apos;UTF-8&apos;</string>
+          <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+          <string>-&gt; No blamer installed yet. You need to install the &apos;git-forensics&apos; plugin to enable blaming for Git.</string>
+          <string>Resolving file names for all issues in workspace &apos;/home/azureuser/workspace/PatientApiJavaWrnings&apos;</string>
+          <string>-&gt; resolved paths in source directory (6 found, 0 not found)</string>
+          <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+          <string>-&gt; resolved module names for 151 issues</string>
+          <string>Resolving package names (or namespaces) by parsing the affected files</string>
+          <string>-&gt; resolved package names of 6 affected files</string>
+          <string>No filter has been set, publishing all 151 issues</string>
+          <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+          <string>-&gt; created fingerprints for 151 issues (skipped 0 issues)</string>
+          <string>Copying affected files to Jenkins&apos; build folder &apos;/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/71/files-with-issues&apos;</string>
+          <string>-&gt; 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error</string>
+          <string>Repository miner is not configured, skipping repository mining</string>
+          <string>Reference build recorder is not configured</string>
+          <string>No valid reference build found</string>
+          <string>All reported issues will be considered outstanding</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 151 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;checkstyle&apos; to build &apos;PatientApiJavaWrnings #71&apos;.</string>
+        </messages>
+        <referenceBuildId></referenceBuildId>
+        <noIssuesSinceBuild>-1</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateResult plugin="plugin-util-api@4.1.0">
+          <overallStatus>INACTIVE</overallStatus>
+          <items/>
+        </qualityGateResult>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity reference="../../../io.jenkins.plugins.analysis.core.model.ResultAction/healthDescriptor/minimumSeverity"/>
+      </healthDescriptor>
+      <id>checkstyle</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+  </actions>
+  <queueId>553</queueId>
+  <timestamp>1717741749871</timestamp>
+  <startTime>1717741749887</startTime>
+  <result>SUCCESS</result>
+  <duration>18094</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>uat</builtOn>
+  <workspace>/home/azureuser/workspace/PatientApiJavaWrnings</workspace>
+  <hudsonVersion>2.452.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.2">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set">
+      <string>fnkenda</string>
+    </c>
+  </culprits>
+</build>

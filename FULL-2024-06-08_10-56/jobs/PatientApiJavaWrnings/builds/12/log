@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4A4nrGdOs3ZGWNduKsMFTW1y4Z5FeaPyNFuqrnBtLF3LAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2AxJLM1LwSx4JML5CJAOUrCtbJAAAA[0mPatientApiJava" build number [8mha:////4H7CVPdnijimUPZHRa4XUzHl7prikY2IuCS8TELDXJi2AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2AxJLM1LwSx4JML5CJ5uYArFf9dMsAAAA=[0m77
+originally caused by:
+ Started by user [8mha:////4J2Q9BtFR9myQ6hIidU7gAFP3TUNCCGjgg7X3COArshoAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4J4v188NQQ8g7oTUXNKQLS2M7SkGYG4G41bGxjb3liTUAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/azureuser/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 80da9d0298080c14771dafafe0673bdb795da29e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 80da9d0298080c14771dafafe0673bdb795da29e # timeout=10
+Commit message: "Merge branch 'test_hook' into 'main'"
+ > git rev-list --no-walk 700be491c1d34805c70948849fff9d740b1ed6e1 # timeout=10
+[PatientApiJavaWrnings] $ /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd checkstyle:checkstyle
+[INFO] Scanning for projects...
+Build was aborted
+Calling Pipeline was cancelled
+[PMDCheckStyle] Skipping execution of recorder since overall result is 'ABORTED'
+Finished: ABORTED

@@ -1,0 +1,242 @@
+Started by upstream project "[8mha:////4A4nrGdOs3ZGWNduKsMFTW1y4Z5FeaPyNFuqrnBtLF3LAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2AxJLM1LwSx4JML5CJAOUrCtbJAAAA[0mPatientApiJava" build number [8mha:////4LerQNt1zIJynY7tr+ouLCmxVSdii1VKC3qf9kA4j3irAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2AxJLM1LwSx4JML5CJlmYAtEp5ncsAAAA=[0m96
+originally caused by:
+ Started by GitLab push by Florent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4J4v188NQQ8g7oTUXNKQLS2M7SkGYG4G41bGxjb3liTUAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/azureuser/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f8507db1d48a432db23e243c9c3a3a08b0009f98 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f8507db1d48a432db23e243c9c3a3a08b0009f98 # timeout=10
+Commit message: "Merge branch 'test_hook' into 'main'"
+ > git rev-list --no-walk d86e17d45c0bf1fb42cc3713e480f2b3435e6061 # timeout=10
+[PatientApiJavaWrnings] $ /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd checkstyle:checkstyle
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.pom
+Progress (1): 1.4/7.2 kBProgress (1): 2.8/7.2 kBProgress (1): 4.1/7.2 kBProgress (1): 5.5/7.2 kBProgress (1): 6.9/7.2 kBProgress (1): 7.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.pom (7.2 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom
+Progress (1): 1.4/10 kBProgress (1): 2.8/10 kBProgress (1): 4.1/10 kBProgress (1): 5.5/10 kBProgress (1): 6.9/10 kBProgress (1): 8.3/10 kBProgress (1): 9.7/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/31/maven-plugins-31.pom (10 kB at 254 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+Progress (1): 1.4/43 kBProgress (1): 2.8/43 kBProgress (1): 4.1/43 kBProgress (1): 5.5/43 kBProgress (1): 6.9/43 kBProgress (1): 8.3/43 kBProgress (1): 9.7/43 kBProgress (1): 11/43 kB Progress (1): 12/43 kBProgress (1): 14/43 kBProgress (1): 15/43 kBProgress (1): 17/43 kBProgress (1): 18/43 kBProgress (1): 19/43 kBProgress (1): 21/43 kBProgress (1): 22/43 kBProgress (1): 23/43 kBProgress (1): 25/43 kBProgress (1): 26/43 kBProgress (1): 28/43 kBProgress (1): 29/43 kBProgress (1): 30/43 kBProgress (1): 32/43 kBProgress (1): 33/43 kBProgress (1): 34/43 kBProgress (1): 36/43 kBProgress (1): 37/43 kBProgress (1): 39/43 kBProgress (1): 40/43 kBProgress (1): 41/43 kBProgress (1): 43/43 kBProgress (1): 43 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom (43 kB at 620 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.jar
+Progress (1): 16/32 kBProgress (1): 32 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-resources-plugin/3.1.0/maven-resources-plugin-3.1.0.jar (32 kB at 1.3 MB/s)
+[INFO] 
+[INFO] ---------------------< com.example:CrudOperation >----------------------
+[INFO] Building CrudOperation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Parameter 'propertiesEncoding' is unknown for plugin 'maven-resources-plugin:3.1.0:resources (default-resources)'
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Parameter 'propertiesEncoding' is unknown for plugin 'maven-resources-plugin:3.1.0:testResources (default-testResources)'
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ CrudOperation ---
+[INFO] Deleting /home/azureuser/workspace/PatientApiJavaWrnings/target
+[INFO] 
+[INFO] --- resources:3.1.0:resources (default-resources) @ CrudOperation ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom
+Progress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom (3.3 kB at 175 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+Progress (1): 770 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom (770 B at 38 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+Progress (1): 5.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom (5.0 kB at 252 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom
+Progress (1): 3.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom (3.3 kB at 175 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom
+Progress (1): 5.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.pom (5.1 kB at 257 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+Progress (1): 4.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom (4.7 kB at 233 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom
+Progress (1): 5.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.pom (5.7 kB at 334 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom
+Progress (1): 5.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.pom (5.6 kB at 243 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom
+Progress (1): 5.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/21/maven-shared-components-21.pom (5.1 kB at 213 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
+Progress (1): 10 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom (10 kB at 508 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
+Progress (1): 16/48 kBProgress (1): 33/48 kBProgress (1): 48 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom (48 kB at 2.0 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom
+Progress (1): 15 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/9/apache-9.pom (15 kB at 842 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom
+Progress (1): 965 B                   Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.pom (965 B at 57 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom
+Progress (1): 4.1 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.pom (4.1 kB at 243 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.22/plexus-interpolation-1.22.pom (1.5 kB at 73 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom
+Progress (1): 2.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.pom (2.6 kB at 138 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar
+Progress (1): 16/49 kBProgress (1): 33/49 kBProgress (1): 49 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar (49 kB at 1.8 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar
+Progress (1): 4.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar (4.3 kB at 179 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar
+Progress (1): 16/209 kBProgress (1): 33/209 kBProgress (1): 49/209 kBProgress (1): 66/209 kBProgress (1): 82/209 kBProgress (1): 98/209 kBProgress (1): 115/209 kBProgress (2): 115/209 kB | 1.4/262 kBProgress (2): 115/209 kB | 2.8/262 kBProgress (2): 115/209 kB | 4.1/262 kBProgress (2): 115/209 kB | 5.5/262 kBProgress (2): 115/209 kB | 6.9/262 kBProgress (3): 115/209 kB | 6.9/262 kB | 1.4/51 kBProgress (3): 115/209 kB | 6.9/262 kB | 2.8/51 kBProgress (3): 115/209 kB | 6.9/262 kB | 4.1/51 kBProgress (3): 115/209 kB | 6.9/262 kB | 5.5/51 kBProgress (4): 115/209 kB | 6.9/262 kB | 5.5/51 kB | 1.4/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 5.5/51 kB | 2.8/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 5.5/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 6.6/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 8.0/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 9.3/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 11/51 kB | 4.1/32 kB Progress (4): 115/209 kB | 6.9/262 kB | 12/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 13/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 15/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 16/51 kB | 4.1/32 kBProgress (4): 115/209 kB | 6.9/262 kB | 18/51 kB | 4.1/32 kBProgress (5): 115/209 kB | 6.9/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 8.3/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 9.7/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 11/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kB Progress (5): 115/209 kB | 12/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 14/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 15/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 16/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 4.1/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 5.5/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 6.9/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 8.3/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 9.7/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 11/32 kB | 16/155 kB Progress (5): 115/209 kB | 32/262 kB | 18/51 kB | 12/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 14/32 kB | 16/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 14/32 kB | 33/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 14/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 15/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 17/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 18/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 19/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 21/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 22/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 23/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 25/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 26/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 28/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 29/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 30/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 32/32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 18/51 kB | 32 kB | 49/155 kB   Progress (5): 115/209 kB | 32/262 kB | 19/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 20/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 22/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 23/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 24/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 26/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 27/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 28/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 30/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 31/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 33/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 34/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 35/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 37/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 38/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 40/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 41/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 42/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 44/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 45/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 46/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 48/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 49/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 51/51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 32/262 kB | 51 kB | 32 kB | 49/155 kB   Progress (5): 115/209 kB | 49/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 65/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 115/209 kB | 81/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 131/209 kB | 81/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 147/209 kB | 81/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 164/209 kB | 81/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 49/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 66/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 82/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 98/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 115/155 kBProgress (5): 180/209 kB | 81/262 kB | 51 kB | 32 kB | 131/155 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar (32 kB at 137 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar
+Progress (4): 180/209 kB | 98/262 kB | 51 kB | 131/155 kB                                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.1.1/maven-filtering-3.1.1.jar (51 kB at 211 kB/s)
+Progress (3): 197/209 kB | 98/262 kB | 131/155 kBProgress (3): 197/209 kB | 114/262 kB | 131/155 kBProgress (4): 197/209 kB | 114/262 kB | 131/155 kB | 16/79 kBProgress (4): 197/209 kB | 114/262 kB | 147/155 kB | 16/79 kBProgress (4): 197/209 kB | 114/262 kB | 155 kB | 16/79 kB                                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.0.0/maven-shared-utils-3.0.0.jar (155 kB at 639 kB/s)
+Progress (3): 197/209 kB | 114/262 kB | 32/79 kBProgress (3): 209 kB | 114/262 kB | 32/79 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar (209 kB at 892 kB/s)
+Progress (2): 130/262 kB | 32/79 kBProgress (2): 130/262 kB | 49/79 kBProgress (2): 147/262 kB | 49/79 kBProgress (2): 147/262 kB | 65/79 kBProgress (2): 147/262 kB | 79 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.24/plexus-interpolation-1.24.jar (79 kB at 329 kB/s)
+Progress (1): 163/262 kBProgress (1): 180/262 kBProgress (1): 196/262 kBProgress (1): 212/262 kBProgress (1): 229/262 kBProgress (1): 245/262 kBProgress (1): 262/262 kBProgress (1): 262 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar (262 kB at 999 kB/s)
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ CrudOperation ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 7 source files with javac [debug release 17] to target/classes
+[INFO] 
+[INFO] --- resources:3.1.0:testResources (default-testResources) @ CrudOperation ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ CrudOperation ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.1.2:test (default-test) @ CrudOperation ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ CrudOperation ---
+[INFO] Building jar: /home/azureuser/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:3.2.2:repackage (repackage) @ CrudOperation ---
+[INFO] Replacing main artifact /home/azureuser/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to /home/azureuser/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar.original
+[INFO] 
+[INFO] --- install:3.1.1:install (default-install) @ CrudOperation ---
+[INFO] Installing /home/azureuser/workspace/PatientApiJavaWrnings/pom.xml to /home/azureuser/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.pom
+[INFO] Installing /home/azureuser/workspace/PatientApiJavaWrnings/target/CrudOperation-0.0.1-SNAPSHOT.jar to /home/azureuser/.m2/repository/com/example/CrudOperation/0.0.1-SNAPSHOT/CrudOperation-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- pmd:3.22.0:pmd (default-cli) @ CrudOperation ---
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] PMD version: 7.0.0
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.3 skin.
+[INFO] 
+[INFO] --- checkstyle:3.4.0:checkstyle (default-cli) @ CrudOperation ---
+[INFO] Rendering content with org.apache.maven.skins:maven-default-skin:jar:1.3 skin.
+[INFO] There are 151 errors reported by Checkstyle 9.3 with sun_checks.xml ruleset.
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Source XRef to link to - DISABLED
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Unable to locate Test Source XRef to link to - DISABLED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.884 s
+[INFO] Finished at: 2024-06-06T13:52:30Z
+[INFO] ------------------------------------------------------------------------
+[PMD] Using default pattern '**/pmd.xml' since user defined pattern is not set
+[PMD] Searching for all files in '/home/azureuser/workspace/PatientApiJavaWrnings' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/home/azureuser/workspace/PatientApiJavaWrnings'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/31/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Deleting source code files of build #30
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Searching for all files in '/home/azureuser/workspace/PatientApiJavaWrnings' that match the pattern '**/pmd.xml'
+[PMD] Traversing of symbolic links: enabled
+[PMD] -> found 1 file
+[PMD] Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/pmd.xml
+[PMD] -> found 1 issue (skipped 0 duplicates)
+[PMD] Successfully processed file 'target/pmd.xml'
+[PMD] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[PMD] Creating SCM blamer to obtain author and commit information for affected files
+[PMD] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[PMD] Resolving file names for all issues in workspace '/home/azureuser/workspace/PatientApiJavaWrnings'
+[PMD] -> resolved paths in source directory (1 found, 0 not found)
+[PMD] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[PMD] -> resolved module names for 1 issues
+[PMD] Resolving package names (or namespaces) by parsing the affected files
+[PMD] -> all affected files already have a valid package name
+[PMD] No filter has been set, publishing all 1 issues
+[PMD] Creating fingerprints for all affected code blocks to track issues over different builds
+[PMD] -> created fingerprints for 1 issues (skipped 0 issues)
+[PMD] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/31/files-with-issues'
+[PMD] -> 1 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[PMD] Deleting source code files of build #30
+[PMD] Repository miner is not configured, skipping repository mining
+[PMD] Reference build recorder is not configured
+[PMD] No valid reference build found
+[PMD] All reported issues will be considered outstanding
+[PMD] No quality gates have been set - skipping
+[PMD] Health report is disabled - skipping
+[PMD] Created analysis result for 1 issues (found 0 new issues, fixed 0 issues)
+[PMD] Attaching ResultAction with ID 'pmd' to build 'PatientApiJavaWrnings #31'.
+[Checks API] No suitable checks publisher found.
+[CheckStyle] Using default pattern '**/checkstyle-result.xml' since user defined pattern is not set
+[CheckStyle] Searching for all files in '/home/azureuser/workspace/PatientApiJavaWrnings' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml
+[CheckStyle] -> found 151 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/home/azureuser/workspace/PatientApiJavaWrnings'
+[CheckStyle] -> resolved paths in source directory (6 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 151 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 6 affected files
+[CheckStyle] No filter has been set, publishing all 151 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 151 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/31/files-with-issues'
+[CheckStyle] -> 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Searching for all files in '/home/azureuser/workspace/PatientApiJavaWrnings' that match the pattern '**/checkstyle-result.xml'
+[CheckStyle] Traversing of symbolic links: enabled
+[CheckStyle] -> found 1 file
+[CheckStyle] Successfully parsed file /home/azureuser/workspace/PatientApiJavaWrnings/target/checkstyle-result.xml
+[CheckStyle] -> found 151 issues (skipped 0 duplicates)
+[CheckStyle] Successfully processed file 'target/checkstyle-result.xml'
+[CheckStyle] Post processing issues on 'uat' with source code encoding 'UTF-8'
+[CheckStyle] Creating SCM blamer to obtain author and commit information for affected files
+[CheckStyle] -> No blamer installed yet. You need to install the 'git-forensics' plugin to enable blaming for Git.
+[CheckStyle] Resolving file names for all issues in workspace '/home/azureuser/workspace/PatientApiJavaWrnings'
+[CheckStyle] -> resolved paths in source directory (6 found, 0 not found)
+[CheckStyle] Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)
+[CheckStyle] -> resolved module names for 151 issues
+[CheckStyle] Resolving package names (or namespaces) by parsing the affected files
+[CheckStyle] -> resolved package names of 6 affected files
+[CheckStyle] No filter has been set, publishing all 151 issues
+[CheckStyle] Creating fingerprints for all affected code blocks to track issues over different builds
+[CheckStyle] -> created fingerprints for 151 issues (skipped 0 issues)
+[CheckStyle] Copying affected files to Jenkins' build folder '/var/lib/jenkins/jobs/PatientApiJavaWrnings/builds/31/files-with-issues'
+[CheckStyle] -> 5 copied, 0 not in workspace, 0 not-found, 0 with I/O error
+[CheckStyle] Repository miner is not configured, skipping repository mining
+[CheckStyle] Reference build recorder is not configured
+[CheckStyle] No valid reference build found
+[CheckStyle] All reported issues will be considered outstanding
+[CheckStyle] No quality gates have been set - skipping
+[CheckStyle] Health report is disabled - skipping
+[CheckStyle] Created analysis result for 151 issues (found 0 new issues, fixed 0 issues)
+[CheckStyle] Attaching ResultAction with ID 'checkstyle' to build 'PatientApiJavaWrnings #31'.
+[Checks API] No suitable checks publisher found.
+Finished: SUCCESS

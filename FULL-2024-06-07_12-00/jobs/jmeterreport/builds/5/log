@@ -1,0 +1,22 @@
+Started by user [8mha:////4J2Q9BtFR9myQ6hIidU7gAFP3TUNCCGjgg7X3COArshoAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4Mh1RXO3V/RkGEiQoU9IGvOFCd0UMX2QdKjDkv5LTZ12AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/YKi/BQAIpv0O8MAAAA=[0mprod in workspace /home/azureuser/workspace/jmeterreport
+[jmeterreport] $ /bin/sh -xe /tmp/jenkins7185570819127088766.sh
++ /usr/jmeter/apache-jmeter-5.6.3/bin/jmeter -jjmeter.save.saveservice.output_format=xml -n -t /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx -l /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx
+Starting standalone test @ 2024 Jun 5 12:28:03 UTC (1717590483739)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary +      1 in 00:00:00 =    3.1/s Avg:    81 Min:    81 Max:    81 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+summary +     19 in 00:00:01 =   31.8/s Avg:    18 Min:     5 Max:    71 Err:     0 (0.00%) Active: 0 Started: 5 Finished: 5
+summary =     20 in 00:00:01 =   21.7/s Avg:    22 Min:     5 Max:    81 Err:     0 (0.00%)
+Tidying up ...    @ 2024 Jun 5 12:28:04 UTC (1717590484856)
+... end of run
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Cannot detect file type because of error: Failed to copy /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl to /var/lib/jenkins/jobs/jmeterreport/builds/5/temp/report.jtl
+Build step 'Publish Performance test result report' changed build result to FAILURE
+Finished: FAILURE

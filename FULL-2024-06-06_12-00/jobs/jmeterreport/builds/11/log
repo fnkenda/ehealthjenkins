@@ -1,0 +1,27 @@
+Started by upstream project "[8mha:////4A4nrGdOs3ZGWNduKsMFTW1y4Z5FeaPyNFuqrnBtLF3LAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2AxJLM1LwSx4JML5CJAOUrCtbJAAAA[0mPatientApiJava" build number [8mha:////4Gjx6n44NuVxm3Qwq1H8Gjro+8czpARJVqdBLAx/ZJUIAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYx/az8JP2AxJLM1LwSx4JML5CJZgYATvOC88sAAAA=[0m60
+originally caused by:
+ Started by GitLab push by Florent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4Mh1RXO3V/RkGEiQoU9IGvOFCd0UMX2QdKjDkv5LTZ12AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/YKi/BQAIpv0O8MAAAA=[0mprod in workspace /home/azureuser/workspace/jmeterreport
+[jmeterreport] $ /bin/sh -xe /tmp/jenkins3901350471102587795.sh
++ sudo /usr/jmeter/apache-jmeter-5.6.3/bin/jmeter -jjmeter.save.saveservice.output_format=xml -n -t /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx -l /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Creating summariser <summary>
+Created the tree successfully using /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx
+Starting standalone test @ 2024 Jun 5 12:41:47 UTC (1717591307184)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     20 in 00:00:01 =   22.3/s Avg:    17 Min:     3 Max:    88 Err:     0 (0.00%)
+Tidying up ...    @ 2024 Jun 5 12:41:48 UTC (1717591308265)
+... end of run
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Performance: Recording JMeter reports '/var/lib/jenkins/jobs/jmeterreport/builds/11/temp/report.jtl'
+Performance: JMeter copying reports to master, files '[/var/lib/jenkins/jobs/jmeterreport/builds/11/temp/report.jtl]'
+Performance: JMeter parsing local reports '[/var/lib/jenkins/jobs/jmeterreport/builds/11/performance-reports/JMeter/report.jtl]'
+Performance: Parsing report file '/var/lib/jenkins/jobs/jmeterreport/builds/11/performance-reports/JMeter/report.jtl' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File report.jtl reported 0.0% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

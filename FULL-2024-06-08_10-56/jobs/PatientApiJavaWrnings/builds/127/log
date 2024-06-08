@@ -1,0 +1,49 @@
+Started by upstream project "[8mha:////4A4nrGdOs3ZGWNduKsMFTW1y4Z5FeaPyNFuqrnBtLF3LAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2AxJLM1LwSx4JML5CJAOUrCtbJAAAA[0mPatientApiJava" build number [8mha:////4Ff9kdpqxMPvgo/a1Ov96lTfpn6WQS/Ec5GE6u6G7dixAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZx/az8JP2AxJLM1LwSx4JML5CJhpbmAEx3DMDMAAAA[0m197
+originally caused by:
+ Started by GitLab push by Florent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4J4v188NQQ8g7oTUXNKQLS2M7SkGYG4G41bGxjb3liTUAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZe/eT83ILSktQi/dLEEgBniWMkwgAAAA==[0muat in workspace /home/azureuser/workspace/PatientApiJavaWrnings
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/azureuser/workspace/PatientApiJavaWrnings/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/fnkenda/ehealthpatientapijava.git # timeout=10
+Fetching upstream changes from https://gitlab.com/fnkenda/ehealthpatientapijava.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.17.1'
+ > git fetch --tags --progress -- https://gitlab.com/fnkenda/ehealthpatientapijava.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a7980f17c37122c217dccde5858a76c4b4727232 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a7980f17c37122c217dccde5858a76c4b4727232 # timeout=10
+Commit message: "Merge branch 'test_hook' into 'main'"
+ > git rev-list --no-walk a7980f17c37122c217dccde5858a76c4b4727232 # timeout=10
+[PatientApiJavaWrnings] $ /home/azureuser/tools/hudson.tasks.Maven_MavenInstallation/MAVEN/bin/mvn clean install pmd:pmd checkstyle:checkstyle
+[INFO] Scanning for projects...
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 is missing, no dependency information available
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Failed to retrieve plugin descriptor for org.springframework.boot:spring-boot-maven-plugin:3.9.0.2155: Plugin org.springframework.boot:spring-boot-maven-plugin:3.9.0.2155 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 (absent): org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 is missing, no dependency information available
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Failed to retrieve plugin descriptor for org.springframework.boot:spring-boot-maven-plugin:3.9.0.2155: Plugin org.springframework.boot:spring-boot-maven-plugin:3.9.0.2155 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 (absent): org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced
+[INFO] 
+[INFO] ---------------------< com.example:CrudOperation >----------------------
+[INFO] Building CrudOperation 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[8mha:////4DZUNFG6hH3wqou3lpBog+eDBpvqx0HvV0EnscZyKRmeAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] The POM for org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 is missing, no dependency information available
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.618 s
+[INFO] Finished at: 2024-06-07T11:03:15Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Plugin org.springframework.boot:spring-boot-maven-plugin:3.9.0.2155 or one of its dependencies could not be resolved: The following artifacts could not be resolved: org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 (absent): org.springframework.boot:spring-boot-maven-plugin:jar:3.9.0.2155 was not found in https://repo.maven.apache.org/maven2 during a previous attempt. This failure was cached in the local repository and resolution is not reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4GKD7ULjtseWiooF6Krz6xu78H/XeMntw65LB7H0wVLtAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+[PMDCheckStyle] Skipping execution of recorder since overall result is 'FAILURE'
+Finished: FAILURE

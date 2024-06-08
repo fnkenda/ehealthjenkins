@@ -1,0 +1,10 @@
+Started by user [8mha:////4J2Q9BtFR9myQ6hIidU7gAFP3TUNCCGjgg7X3COArshoAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4Mh1RXO3V/RkGEiQoU9IGvOFCd0UMX2QdKjDkv5LTZ12AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/YKi/BQAIpv0O8MAAAA=[0mprod in workspace /home/azureuser/workspace/jmeterreport
+[jmeterreport] $ /bin/sh -xe /tmp/jenkins11877436502082529707.sh
++ sudo /usr/jmeter/apache-jmeter-5.6.3/bin/jmeter -jjmeter.save.saveservice.output_format=xml -n -t /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx -l /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl
+sudo: /usr/jmeter/apache-jmeter-5.6.3/bin/jmeter: command not found
+Build step 'Execute shell' marked build as failure
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Cannot detect file type because of error: Failed to copy /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl to /var/lib/jenkins/jobs/jmeterreport/builds/2/temp/report.jtl
+Finished: FAILURE

@@ -1,0 +1,27 @@
+Started by user [8mha:////4J2Q9BtFR9myQ6hIidU7gAFP3TUNCCGjgg7X3COArshoAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgZe/dLi1CL9tLzs1LyURADPUg4pwgAAAA==[0mFlorent Nkenda Mayala
+Running as SYSTEM
+Building remotely on [8mha:////4Mh1RXO3V/RkGEiQoU9IGvOFCd0UMX2QdKjDkv5LTZ12AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgY+/eT83ILSktQi/YKi/BQAIpv0O8MAAAA=[0mprod in workspace /home/azureuser/workspace/jmeterreport
+[jmeterreport] $ /bin/sh -xe /tmp/jenkins6747188422459963074.sh
++ sudo /usr/jmeter/apache-jmeter-5.6.3/bin/jmeter -jjmeter.save.saveservice.output_format=xml -n -t /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx -l /usr/jmeter/apache-jmeter-5.6.3/bin/report.jtl
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+WARN StatusConsoleListener The use of package scanning to locate plugins is deprecated and will be removed in a future release
+Jun 05, 2024 12:33:18 PM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+Creating summariser <summary>
+Created the tree successfully using /usr/jmeter/apache-jmeter-5.6.3/bin/ehealth.jmx
+Starting standalone test @ 2024 Jun 5 12:33:19 UTC (1717590799090)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+summary =     20 in 00:00:01 =   21.6/s Avg:    31 Min:     5 Max:   128 Err:     0 (0.00%)
+Tidying up ...    @ 2024 Jun 5 12:33:20 UTC (1717590800227)
+... end of run
+Creating parser with percentiles:'0,50,90,95,100,' filterRegex:
+Performance: Recording JMeter reports '/var/lib/jenkins/jobs/jmeterreport/builds/6/temp/report.jtl'
+Performance: JMeter copying reports to master, files '[/var/lib/jenkins/jobs/jmeterreport/builds/6/temp/report.jtl]'
+Performance: JMeter parsing local reports '[/var/lib/jenkins/jobs/jmeterreport/builds/6/performance-reports/JMeter/report.jtl]'
+Performance: Parsing report file '/var/lib/jenkins/jobs/jmeterreport/builds/6/performance-reports/JMeter/report.jtl' with filterRegex ''.
+Performance: No threshold configured for making the test unstable
+Performance: No threshold configured for making the test failure
+Performance: File report.jtl reported 0.0% of errors [SUCCESS]. Build status is: SUCCESS
+Finished: SUCCESS

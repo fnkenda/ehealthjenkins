@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.8.1">
+            <data>
+              <actionType>PUSH</actionType>
+              <sourceProjectId>56498231</sourceProjectId>
+              <targetProjectId>56498231</targetProjectId>
+              <branch>test_hook</branch>
+              <sourceBranch>test_hook</sourceBranch>
+              <userName>Florent Nkenda Mayala</userName>
+              <userUsername>fnkenda</userUsername>
+              <userEmail></userEmail>
+              <sourceRepoHomepage>https://gitlab.com/fnkenda/ehealthpatientapijava</sourceRepoHomepage>
+              <sourceRepoName>eHealthPatientApiJava</sourceRepoName>
+              <sourceNamespace>Florent Nkenda Mayala</sourceNamespace>
+              <sourceRepoUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoUrl>
+              <sourceRepoSshUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoSshUrl>
+              <sourceRepoHttpUrl>https://gitlab.com/fnkenda/ehealthpatientapijava.git</sourceRepoHttpUrl>
+              <mergeCommitSha></mergeCommitSha>
+              <mergeRequestTitle></mergeRequestTitle>
+              <mergeRequestDescription></mergeRequestDescription>
+              <mergeRequestState></mergeRequestState>
+              <mergedByUser></mergedByUser>
+              <mergeRequestAssignee></mergeRequestAssignee>
+              <targetBranch>test_hook</targetBranch>
+              <targetRepoName></targetRepoName>
+              <targetNamespace></targetNamespace>
+              <targetRepoSshUrl></targetRepoSshUrl>
+              <targetRepoHttpUrl></targetRepoHttpUrl>
+              <triggeredByUser>Florent Nkenda Mayala</triggeredByUser>
+              <before>0000000000000000000000000000000000000000</before>
+              <after>43b59ccfb62894655de0b2688159f88388489d17</after>
+              <lastCommit>43b59ccfb62894655de0b2688159f88388489d17</lastCommit>
+              <targetProjectUrl>https://gitlab.com/fnkenda/ehealthpatientapijava</targetProjectUrl>
+            </data>
+          </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <hudson.plugins.git.RevisionParameterAction plugin="git@5.2.2">
+      <commit>remotes/origin/test_hook</commit>
+      <combineCommits>false</combineCommits>
+      <repoURL plugin="git-client@4.7.0">
+        <path>fnkenda/ehealthpatientapijava.git</path>
+        <rawPath>fnkenda/ehealthpatientapijava.git</rawPath>
+        <user>git</user>
+        <port>-1</port>
+        <host>gitlab.com</host>
+      </repoURL>
+    </hudson.plugins.git.RevisionParameterAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>8792</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>0</buildableDurationMillis>
+      <waitingDurationMillis>8785</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+  </actions>
+  <queueId>149</queueId>
+  <timestamp>1717584567456</timestamp>
+  <startTime>1717584567471</startTime>
+  <result>FAILURE</result>
+  <description>Started by GitLab push by Florent Nkenda Mayala</description>
+  <duration>309</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

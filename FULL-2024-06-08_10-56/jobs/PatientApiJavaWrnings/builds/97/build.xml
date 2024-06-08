@@ -1,0 +1,126 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+            <upstreamProject>PatientApiJava</upstreamProject>
+            <upstreamUrl>job/PatientApiJava/</upstreamUrl>
+            <upstreamBuild>163</upstreamBuild>
+            <upstreamCauses>
+              <com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause plugin="gitlab-plugin@1.8.1">
+                <data>
+                  <actionType>PUSH</actionType>
+                  <sourceProjectId>56498231</sourceProjectId>
+                  <targetProjectId>56498231</targetProjectId>
+                  <branch>main</branch>
+                  <sourceBranch>main</sourceBranch>
+                  <userName>Florent Nkenda Mayala</userName>
+                  <userUsername>fnkenda</userUsername>
+                  <userEmail></userEmail>
+                  <sourceRepoHomepage>https://gitlab.com/fnkenda/ehealthpatientapijava</sourceRepoHomepage>
+                  <sourceRepoName>eHealthPatientApiJava</sourceRepoName>
+                  <sourceNamespace>Florent Nkenda Mayala</sourceNamespace>
+                  <sourceRepoUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoUrl>
+                  <sourceRepoSshUrl>git@gitlab.com:fnkenda/ehealthpatientapijava.git</sourceRepoSshUrl>
+                  <sourceRepoHttpUrl>https://gitlab.com/fnkenda/ehealthpatientapijava.git</sourceRepoHttpUrl>
+                  <mergeCommitSha></mergeCommitSha>
+                  <mergeRequestTitle></mergeRequestTitle>
+                  <mergeRequestDescription></mergeRequestDescription>
+                  <mergeRequestState></mergeRequestState>
+                  <mergedByUser></mergedByUser>
+                  <mergeRequestAssignee></mergeRequestAssignee>
+                  <targetBranch>main</targetBranch>
+                  <targetRepoName></targetRepoName>
+                  <targetNamespace></targetNamespace>
+                  <targetRepoSshUrl></targetRepoSshUrl>
+                  <targetRepoHttpUrl></targetRepoHttpUrl>
+                  <triggeredByUser>Florent Nkenda Mayala</triggeredByUser>
+                  <before>caab2d9db7f8471356ba0a6f122264d420790f4c</before>
+                  <after>70118d4805a23a1f6e13afd15026b6d8e963bf04</after>
+                  <lastCommit>70118d4805a23a1f6e13afd15026b6d8e963bf04</lastCommit>
+                  <targetProjectUrl>https://gitlab.com/fnkenda/ehealthpatientapijava</targetProjectUrl>
+                </data>
+              </com.dabsquared.gitlabjenkins.cause.GitLabWebHookCause>
+            </upstreamCauses>
+            <nodeId>26</nodeId>
+          </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+      <upstreamNodeId>26</upstreamNodeId>
+      <upstreamRunId>PatientApiJava#163</upstreamRunId>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction plugin="pipeline-build-step@540.vb_e8849e1a_b_d8">
+      <triggers>
+        <org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+          <context class="org.jenkinsci.plugins.workflow.cps.CpsStepContext" plugin="workflow-cps@3894.3896.vca_2c931e7935">
+            <executionRef class="flow-owner" plugin="workflow-job@1400.v7fd111b_ec82f">
+              <job>PatientApiJava</job>
+              <id>163</id>
+            </executionRef>
+            <id>26</id>
+            <bodyHeads/>
+            <threadId>14</threadId>
+            <stepDescriptorId>org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerStep</stepDescriptorId>
+          </context>
+          <propagate>true</propagate>
+          <waitForStart>false</waitForStart>
+        </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction_-Trigger>
+      </triggers>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildTriggerAction>
+    <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.21-451.vd51df8df52ec">
+      <queuingDurationMillis>6081</queuingDurationMillis>
+      <blockedDurationMillis>0</blockedDurationMillis>
+      <buildableDurationMillis>1</buildableDurationMillis>
+      <waitingDurationMillis>6078</waitingDurationMillis>
+    </jenkins.metrics.impl.TimeInQueueAction>
+    <hudson.plugins.git.util.BuildData plugin="git@5.2.2">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@4.7.0">
+              <sha1>70118d4805a23a1f6e13afd15026b6d8e963bf04</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>97</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://gitlab.com/fnkenda/ehealthpatientapijava.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.scm.SCMRevisionState_-None/>
+  </actions>
+  <queueId>708</queueId>
+  <timestamp>1717754978868</timestamp>
+  <startTime>1717754978883</startTime>
+  <result>FAILURE</result>
+  <duration>2987</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>uat</builtOn>
+  <workspace>/home/azureuser/workspace/PatientApiJavaWrnings</workspace>
+  <hudsonVersion>2.452.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@5.2.2">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>true</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set">
+      <string>fnkenda</string>
+    </c>
+  </culprits>
+</build>
